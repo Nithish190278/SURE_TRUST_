@@ -1,0 +1,121 @@
+/* General Container for Contact Section */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 900px;
+    
+}
+
+/* Left Side - Contact Details */
+.contact-details {
+    max-width: 400px;
+}
+.contact-info{
+    color: #333;
+}
+.contact-details h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 10px;
+}
+
+.contact-item i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #4267B2;
+}
+
+.contact-item a:hover {
+    color: #365899;
+}
+
+/* Address Styling */
+.contact-address {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Social Media Icon */
+.contact-social {
+    margin-top: 30px;
+}
+
+.contact-social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-social a:hover {
+    background-color: #ddd;
+}
+
+/* Right Side - Contact Form */
+.contact-form {
+    max-width: 450px;
+    width: 100%;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #365899;
+}

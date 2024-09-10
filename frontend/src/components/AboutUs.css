@@ -1,0 +1,40 @@
+.about-us-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow:auto;
+  }
+  
+  .about-us-container h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-container img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .about-us-container h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-container p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  

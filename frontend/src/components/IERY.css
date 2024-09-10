@@ -1,0 +1,134 @@
+.iery-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .intro-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .intro-text {
+    max-width: 45%;
+  }
+  
+  .intro-text h2 {
+    color: #FFC0CB;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .intro-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .intro-text p {
+    font-size: 1.1em;
+    line-height: 1.5;
+  }
+  
+  .video-container {
+    max-width: 50%;
+    margin-top: 20px;
+  }
+  
+  .projects-section {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .projects-section h1 {
+    font-size: 2em;
+    margin-bottom: 40px;
+  }
+  
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project-item {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .intro-section {
+      flex-direction: column;
+    }
+  
+    .intro-text, .video-container {
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .project-item {
+      flex: 1 1 calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .project-item {
+      flex: 1 1 100%;
+    }
+  }
+  
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project-item {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .project-item:hover {
+    background-color: #2bcff8;
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .intro-section {
+      flex-direction: column;
+    }
+  
+    .intro-text, .video-container {
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .project-item {
+      flex: 1 1 calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .project-item {
+      flex: 1 1 100%;
+    }
+  }
+  
